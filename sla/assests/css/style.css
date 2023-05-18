@@ -1,0 +1,56 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    font-size: x-large;
+
+    
+}
+
+.imagem-tela-cheia {
+    width: 99vw;
+    height: 99vh;
+  }
+
+  .latas-de-lixo{
+    width: 250px;
+    height: auto;
+
+    
+  }
+.cardapio-icon {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 500px;
+} 
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+
+button{
+    border-radius: 8px;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+}
