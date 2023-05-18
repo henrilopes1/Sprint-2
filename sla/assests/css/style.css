@@ -12,6 +12,7 @@ body {
 .latas-de-lixo {
     width: 250px;
     height: auto;
+    margin-left: 43%;
 }
 
 .cardapio-icon {
@@ -26,6 +27,7 @@ body {
 header {
     margin: 0;
     padding: 10px 0;
+    margin-left: 40%;
     /* Ajuste os valores de preenchimento conforme necessário  */
 }
 
@@ -96,6 +98,7 @@ button {
     width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
     height: 50px;
 }
+
 /* SEÇAO DA LIXEIRA */
 .lixeiras {
     position: relative;
