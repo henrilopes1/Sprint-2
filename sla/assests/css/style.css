@@ -96,7 +96,7 @@ button {
     width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
     height: 50px;
 }
-
+/* SEÇAO DA LIXEIRA */
 .lixeiras {
     position: relative;
     width: 100%;
@@ -124,7 +124,7 @@ button {
  margin-left: 45%
 
 }
-
+/* SEÇAO DO APP */
 .aplicativo {
     position: relative;
     width: 100%;
@@ -153,6 +153,7 @@ button {
 
 }
 
+/* SEÇAO DA COLETA SELETIVA */
 .coleta-seletiva{
     position: relative;
     width: 100%;
