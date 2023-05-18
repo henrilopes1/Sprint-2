@@ -152,3 +152,22 @@ button {
  margin-left: 45%
 
 }
+
+.coleta-seletiva{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.texto-coleta-seletiva{
+    position: absolute;
+    top: calc(35% + 35px); /* Ajuste o valor para posicionar o texto abaixo da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 30%;
+}
+
+.bbotao-coleta{
+    margin-top: 90%; /* Espaçamento entre o texto e o botão */
+    margin-left: 45%
+}
