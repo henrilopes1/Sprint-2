@@ -1,22 +1,19 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
     font-size: x-large;
-
-    
 }
 
 .imagem-tela-cheia {
     width: 99vw;
     height: 99vh;
-  }
+}
 
-  .latas-de-lixo{
+.latas-de-lixo {
     width: 250px;
     height: auto;
+}
 
-    
-  }
 .cardapio-icon {
     width: 25px;
     height: 20px;
@@ -26,16 +23,21 @@ body{
     cursor: pointer;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+header {
+    margin: 0;
+    padding: 10px 0;
+    /* Ajuste os valores de preenchimento conforme necessário  */
+}
+
+header nav ul {
+    margin: 0;
     padding: 0;
 }
 
-nav li {
-    margin-right: 500px;
-} 
+header nav ul li {
+    display: inline;
+    margin-right: 19px; /* Ajuste a margem conforme necessário  */
+}
 
 nav a {
     text-decoration: none;
@@ -47,10 +49,106 @@ nav a:hover {
 }
 
 
-button{
+button {
     border-radius: 8px;
     background-color: black;
     font-size: 20px;
     padding: 10px 20px;
     color: white;
+}
+
+.coleta-seletiva-img {
+    width: 95%;
+    height: auto;
+}
+
+
+#secoes {
+    display: none;
+    position: absolute;
+    top: 30px; /* Ajuste a posição vertical conforme necessário */
+    left: 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+#secoes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#secoes ul li {
+    margin-bottom: 5px;
+}
+
+#secoes ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#icone {
+    position: relative;
+    display: inline-block;
+}
+
+#icone img {
+    width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: 50px;
+}
+
+.lixeiras {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.lixeiras img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.texto-lixeiras {
+    position: absolute;
+    top: calc(20% + 20px); /* Ajuste o valor para posicionar o texto abaixo da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.botao{
+ margin-top: 30%; /* Espaçamento entre o texto e o botão */
+ margin-left: 45%
+
+}
+
+.aplicativo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.aplicativo img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.texto-aplicativo {
+    position: absolute;
+    top: calc(35% + 35px); /* Ajuste o valor para posicionar o texto abaixo da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.botao-app{
+ margin-top: 37%; /* Espaçamento entre o texto e o botão */
+ margin-left: 45%
+
 }
