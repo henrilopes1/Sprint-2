@@ -25,7 +25,7 @@ body {
 
 header {
     margin: 0;
-    padding: 0px 0;/* Ajuste os valores de preenchimento conforme necessário  */
+    padding: 0px 25px;/* Ajuste os valores de preenchimento conforme necessário  */
     float: right;
 }
 
