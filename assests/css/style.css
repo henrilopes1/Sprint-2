@@ -25,7 +25,8 @@ body {
 
 header {
     margin: 0;
-    padding: 0px 25px;/* Ajuste os valores de preenchimento conforme necessário  */
+    padding: 0px 25px;
+    /* Ajuste os valores de preenchimento conforme necessário  */
     float: right;
 }
 
@@ -36,7 +37,8 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin-right: 19px; /* Ajuste a margem conforme necessário  */
+    margin-right: 19px;
+    /* Ajuste a margem conforme necessário  */
 }
 
 nav a {
@@ -49,10 +51,20 @@ nav a:hover {
 }
 
 .latas-de-lixo {
-width: 250px;
-height: auto;
-margin-left: 43%;
+    width: 250px;
+    height: auto;
+    margin-left: 43%;
 }
+
+.texto-inicial {
+    position: inherit;
+    top: calc(110% + 35px);/* Ajuste o valor para posicionar o texto abaixo da imagem */
+    transform: translateX(-0%);
+    left: 50%;
+    text-align: justify;
+
+}
+
 button {
     border-radius: 8px;
     background-color: black;
@@ -71,11 +83,13 @@ button {
 #secoes {
     display: none;
     position: absolute;
-    top: 30px; /* Ajuste a posição vertical conforme necessário */
+    top: 30px;
+    /* Ajuste a posição vertical conforme necessário */
     left: 0;
     background-color: #f0f0f0;
     padding: 10px;
 }
+
 #secoes ul {
     list-style: none;
     margin: 0;
@@ -97,9 +111,11 @@ button {
 }
 
 #icone img {
-    width: 50px; /* Ajuste o tamanho do ícone conforme necessário */
+    width: 50px;
+    /* Ajuste o tamanho do ícone conforme necessário */
     height: 50px;
 }
+
 /* LIXEIRAS */
 .lixeiras {
     position: relative;
@@ -118,15 +134,17 @@ button {
 
 .texto-lixeiras {
     position: absolute;
-    top: calc(20% + 20px); /* Ajuste o valor para posicionar o texto abaixo da imagem */
+    top: calc(20% + 20px);
+    /* Ajuste o valor para posicionar o texto abaixo da imagem */
     left: 50%;
     transform: translateX(-50%);
+    text-align: justify;
 }
 
-.botao{
- margin-top: 30%; /* Espaçamento entre o texto e o botão */
- margin-left: 45%
-
+.botao {
+    margin-top: 30%;
+    /* Espaçamento entre o texto e o botão */
+    margin-left: 45%
 }
 
 /* APLICATIVO */
@@ -147,13 +165,26 @@ button {
 
 .texto-aplicativo {
     position: absolute;
-    top: calc(35% + 35px); /* Ajuste o valor para posicionar o texto abaixo da imagem */
+    top: calc(35% + 35px);
+    /* Ajuste o valor para posicionar o texto abaixo da imagem */
     left: 50%;
     transform: translateX(-50%);
+    text-align: justify;
 }
 
-.botao-app{
- margin-top: 37%; /* Espaçamento entre o texto e o botão */
- margin-left: 45%
+.botao-app {
+    margin-top: 37%;
+    /* Espaçamento entre o texto e o botão */
+    margin-left: 45%
+}
+
+/* COLETA SELETIVA */
+.texto-coleta-seletiva {
+    position: absolute;
+    top: calc(435% + 35px);
+    /* Ajuste o valor para posicionar o texto abaixo da imagem */
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: justify;
 
 }
