@@ -12,6 +12,11 @@
     margin: 3%;
 }
 
+.container-card-title h2{
+    font-size: 46px;
+    font-weight: bolder;
+}
+
 .card-item {
     width: 500px;
     min-height: 350px;
