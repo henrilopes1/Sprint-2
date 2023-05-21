@@ -14,7 +14,9 @@ a:hover{
     color: rgb(126, 179, 45);
 }
 
-
+#home-text{
+    margin: 0 300px;
+}
 
 .container-text h2{
     font-size: 46px;
@@ -58,6 +60,6 @@ a:hover{
     width: 800px;
 }
 
-#section-bg{
+.section-bg{
     background-color: #e3f4d2;
 }
